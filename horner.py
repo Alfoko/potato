@@ -10,13 +10,6 @@ def polynome(coefficients):
     
     return(result)
 
-""" En calculant le polynôme de manière "classique", on doit
-    faire autant d'additions que de coefficients, et n! muliplications.
-    
-    Grâce à l'agorithme d'Horner, nous n'avons plus qu'à faire n-1
-    multiplications et n-1 additions.
-"""
-
 # Pour P(2) avec la méthode d'Horner:
 
 def horner(coefficients):
