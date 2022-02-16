@@ -1,0 +1,121 @@
+html {
+    font-family: 'Roboto', sans-serif;    
+    background-color: #222222;
+    scroll-behavior: smooth;
+}
+
+.sidebar {
+    left: 0;
+    right: 0;
+    top: 0;
+    background-color: #181818;
+    position:fixed;
+    text-align: center;
+    width: 150px;
+    height: 1080px;
+    /*box-shadow: hsla(0, 0%, 73%, 0.4) 5px 0px, hsla(0, 0%, 73%, 0.3) 10px 0px, hsla(0, 0%, 73%, 0.2) 15px 0px, hsla(0, 0%, 73%, 0.1) 20px 0px, hsla(0, 0%, 73%, 0.05) 25px 0px;*/
+    box-shadow:hsla(0, 0%, 73%, 0.05) 5px 0px;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #7e7e7e;
+    border-radius: 10px;
+}
+
+a {
+    color: #7e7e7e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #c7c7c7;
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.menu {
+    transform: translate(0%, 200%);
+}
+
+
+
+hr {
+    color: #44444436;
+    border-width: 0.5px;
+    border-style:solid;
+}
+
+.main {
+    margin-left:170px;
+    margin-top: 250px;
+}
+
+h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 500%;
+}
+
+h2 {
+    color: rgba(255, 255, 255, 0.795);
+    font-weight: none;
+    font-size: 200%;
+    transform: translate(0%, -400%);
+}
+
+h3 {
+    color: rgba(255, 255, 255, 0.493);
+    font-weight: none;
+    font-size: 120%;
+    transform: translate(0%, -700%);
+}
+
+h4 {
+    color: rgba(255, 255, 255, 0.493);
+    font-weight: none;
+    font-size: 120%;
+    transform: translate(0%, 90%);
+}
+
+.line-1{
+    top: 60%;  
+    width: 24em;
+    border-right: 2px solid rgba(255,255,255,.75);
+    font-size: 1000%;
+    text-align: left;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-40%);    
+}
+
+.anim-typewriter{
+  animation: typewriter 1s steps(44) 1s 1 normal both,
+             blinkTextCursor 750ms steps(14) infinite normal;
+}
+@keyframes typewriter{
+  from{width: 0;}
+  to{width: 6em;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+p {
+   color: white;
+   font-size: 200%; 
+}
+
+footer {
+    text-align: center;
+    background-color: #181818;
+    position: relative;
+    height: 50px;
+    margin-bottom: 0px;
+}
