@@ -25,15 +25,11 @@
               appId: "1:383399548564:web:839feae3ef2c69aa708681",
               measurementId: "G-7J797PH9Y0"
             };
-          
-            // Initialize Firebase
-            const app = initializeApp(firebaseConfig);
-            const analytics = getAnalytics(app);
 
-            var name = window. prompt("Enter your name: "); 
-            alert("Your name is " + name);
-            firebase.database().ref('subscription-entries').push().set(name);
-        </script>
+            firebase.initializeApp(firebaseConfig);
+            console.log(firebase);
+
+            </script>
 
         <h1>Welcome to the forum!</h1>
     </body>
